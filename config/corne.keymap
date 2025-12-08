@@ -56,10 +56,10 @@
             //                     | GUI  |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp LG(LS(S))  &trans            &kp LG(TAB)  &trans             &trans       &trans    &trans     &trans     &trans     &kp DEL  &none
-&none  &kp LSHFT      &kp LG(LC(LEFT))  &kp LGUI     &kp LG(LC(RIGHT))  &trans       &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ESC  &none
-&none  &trans         &trans            &trans       &trans             &trans       &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp INS  &none
-                                        &kp LGUI     &trans             &kp SPACE    &kp RET   &trans     &kp RALT
+&none  &kp LG(LS(S))  &trans            &kp LG(TAB)  &trans             &trans                &trans    &trans     &trans     &trans     &kp DEL  &none
+&none  &kp LSHFT      &kp LG(LC(LEFT))  &kp LGUI     &kp LG(LC(RIGHT))  &trans                &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ESC  &none
+&none  &trans         &trans            &trans       &trans             &trans                &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp INS  &none
+                                        &kp RCTRL    &kp LEFT_SHIFT     &kp LC(LEFT_SHIFT)    &kp RET   &trans     &kp RALT
             >;
         };
 
