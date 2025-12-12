@@ -66,7 +66,7 @@
             //                     | GUI  |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none           &kp LG(LS(S))  &trans            &kp LG(TAB)  &trans             &trans       &kp LC(LG(S))  &trans     &trans     &trans     &kp DEL  &none
+&none           &kp LG(LS(S))  &trans            &kp LG(TAB)  &trans             &trans       &kp LG(LS(S))  &trans     &trans     &trans     &kp DEL  &none
 &kp LEFT_SHIFT  &kp LSHFT      &kp LG(LC(LEFT))  &kp LGUI     &kp LG(LC(RIGHT))  &trans       &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &kp ESC  &none
 &kp LEFT_ALT    &trans         &trans            &trans       &trans             &trans       &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &kp INS  &none
                                                  &kp RCTRL    &kp LEFT_SHIFT     &kp LCTRL    &kp RET        &trans     &kp RALT
